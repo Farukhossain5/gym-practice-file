@@ -33,11 +33,10 @@ font: 18px;
 .banner-container{
     color: white;
     display: flex;
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-color: black;
 }
-
 .banner-description{
     margin-left: 50px;
 }
@@ -72,10 +71,11 @@ font: 18px;
     padding: 50px;
  
 }
-.card-title{
+.titles{
     font-size: 40px;
     font-weight: bold; 
     margin-bottom: 20px;
+    text-align: center;
 }
 .card-blocks{
     display: flex;
@@ -87,6 +87,7 @@ font: 18px;
     padding: 20px;
     border: 1px solid gray;
     border-radius: 10px;
+    text-align: center;
     box-shadow: 8px 8px 16px gray;
     margin-top: 20px;
 }
@@ -98,4 +99,47 @@ font: 18px;
 
 .gym-icon{
     width: 50px;
+}
+ .about-right-title{
+text-align: center;
+font-size: xxx-large;
+font-weight: bold;
+ }
+.about-container{
+    display: flex;
+    background-color: #292525;
+    color: white;
+}
+ 
+.about-left{
+    width: 700px;
+    /* border: 1px solid #d95858; */
+}
+.about-right{
+    width: 700px;
+    /* border: 1px solid #342929; */
+}
+.workout-image{
+    display: flex;
+    margin-top: 50px;
+}
+.workout-image img{
+    width: 300px;
+    height: 550px;
+    transform: skewY(-15deg);
+}
+
+.btn-text{
+    text-decoration: none;
+    color: #fff;
+}
+
+.list-items{
+    list-style: none;
+}
+.footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding-top: 30px;
 }
